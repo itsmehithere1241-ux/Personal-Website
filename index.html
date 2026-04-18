@@ -12,12 +12,14 @@
 
     <header class="fixed top-0 left-0 right-0 z-50">
         <nav class="mx-6 md:mx-12 mt-4 rounded-xl border border-slate-600/60 bg-slate-900/85 backdrop-blur-md shadow-[0_0_20px_rgba(56,189,248,0.2)]">
-            <ul class="flex flex-wrap items-center gap-3 sm:gap-5 px-6 py-4 text-sm sm:text-base font-semibold text-slate-100">
-                <li><a href="#about" class="hover:text-cyan-300 transition">About Me</a></li>
-                <li><a href="#hobbies" class="hover:text-cyan-300 transition">Hobbies</a></li>
-                <li><a href="#games" class="hover:text-cyan-300 transition">Games I Play</a></li>
-                <li><a href="#school" class="hover:text-cyan-300 transition">School I Go To</a></li>
-                <li><a href="#game-dev" class="hover:text-cyan-300 transition">Game Development</a></li>
+            <ul class="flex flex-wrap items-center gap-1 px-6 py-4 text-sm sm:text-base font-semibold text-slate-100">
+                <li class="px-2"><a href="#about" class="hover:text-cyan-300 transition">About Me</a></li>
+                <li class="border-l border-cyan-300/40 pl-3 pr-2"><a href="#hobbies" class="hover:text-cyan-300 transition">Hobbies</a></li>
+                <li class="border-l border-cyan-300/40 pl-3 pr-2"><a href="#games" class="hover:text-cyan-300 transition">Games I Play</a></li>
+                <li class="border-l border-cyan-300/40 pl-3 pr-2"><a href="#projects" class="hover:text-cyan-300 transition">Projects</a></li>
+                <li class="border-l border-cyan-300/40 pl-3 pr-2"><a href="#wip" class="hover:text-cyan-300 transition">WIP</a></li>
+                <li class="border-l border-cyan-300/40 pl-3 pr-2"><a href="#school" class="hover:text-cyan-300 transition">School I Go To</a></li>
+                <li class="border-l border-cyan-300/40 pl-3 pr-2"><a href="#game-dev" class="hover:text-cyan-300 transition">Game Development</a></li>
             </ul>
         </nav>
     </header>
@@ -26,6 +28,8 @@
         <section id="about" class="rounded-2xl border border-cyan-400/30 bg-slate-900/55 p-6 md:p-8 shadow-[0_0_24px_rgba(34,211,238,0.15)]">
             <h1 class="text-3xl md:text-4xl font-black tracking-wide text-cyan-200">About Me</h1>
             <p class="mt-4 text-white font-bold">Name: Alan Wang</p>
+            <p class="mt-3 text-white/95 font-bold">I am fifteen years old, live in New York, and spend a lot of evenings experimenting with small game projects.</p>
+            <p class="mt-3 text-white/95 font-bold">I like seeing how movement, physics, and level design come together, and I improve my games by sharing early builds and learning from playtesting feedback.</p>
 
             <div class="mt-6 space-y-4">
                 <div class="rounded-lg border border-cyan-300/50 bg-slate-800/60 px-4 py-2 inline-block font-bold text-white">Hobbies</div>
@@ -60,6 +64,64 @@
                 <li>Terraria (also modded)</li>
                 <li>Roblox (not as much)</li>
             </ul>
+        </section>
+
+        <section id="projects" class="rounded-2xl border border-cyan-400/30 bg-slate-900/55 p-6 md:p-8 shadow-[0_0_24px_rgba(34,211,238,0.14)]">
+            <h2 class="text-2xl md:text-3xl font-extrabold text-cyan-200">Projects</h2>
+            <p class="mt-3 text-cyan-300/80">Sci-fi themed project logs adapted from my other site.</p>
+            <div class="mt-6 grid grid-cols-1 lg:grid-cols-2 gap-5">
+                <article class="rounded-xl border border-cyan-300/35 bg-slate-800/60 p-5">
+                    <img
+                        src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=720&q=80"
+                        alt="Retro arcade style scene for Project 1"
+                        class="h-44 w-full object-cover rounded-lg border border-cyan-300/30">
+                    <h3 class="text-lg font-bold text-cyan-200">Project 1 - Floating Platforms</h3>
+                    <p class="mt-2 text-cyan-300/85 leading-relaxed">A 2D movement game about jumping across floating platforms. The focus is crisp controls, readable jumps, and rearrangeable level chunks for harder routes.</p>
+                </article>
+                <article class="rounded-xl border border-cyan-300/35 bg-slate-800/60 p-5">
+                    <img
+                        src="https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=720&q=80"
+                        alt="Abstract 3D gaming mood for Project 2"
+                        class="h-44 w-full object-cover rounded-lg border border-cyan-300/30">
+                    <h3 class="text-lg font-bold text-cyan-200">Project 2 - 3D Time Trials</h3>
+                    <p class="mt-2 text-cyan-300/85 leading-relaxed">A 3D platformer built around speed and time trials, with tight routes, shortcuts, and quick restarts to improve run consistency and timer flow.</p>
+                </article>
+                <article class="rounded-xl border border-cyan-300/35 bg-slate-800/60 p-5">
+                    <img
+                        src="https://images.unsplash.com/photo-1612287230202-1ff1d85d1bdf?auto=format&fit=crop&w=720&q=80"
+                        alt="Neon arcade style visual for Project 3"
+                        class="h-44 w-full object-cover rounded-lg border border-cyan-300/30">
+                    <h3 class="text-lg font-bold text-cyan-200">Project 3 - Speed and Precision</h3>
+                    <p class="mt-2 text-cyan-300/85 leading-relaxed">A 2D platformer for players who like speed, precision, and time-based puzzle pressure, including challenge paths that reward cleaner execution.</p>
+                </article>
+                <article class="rounded-xl border border-cyan-300/35 bg-slate-800/60 p-5">
+                    <img
+                        src="https://images.unsplash.com/photo-1633356122544-f134324a6cee?auto=format&fit=crop&w=720&q=80"
+                        alt="Puzzle and code concept for Project 4"
+                        class="h-44 w-full object-cover rounded-lg border border-cyan-300/30">
+                    <h3 class="text-lg font-bold text-cyan-200">Project 4 - Break the Game</h3>
+                    <p class="mt-2 text-cyan-300/85 leading-relaxed">A puzzle game concept where intended exploits and weird interactions are the intended way to solve levels instead of something to patch out.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="wip" class="rounded-2xl border border-cyan-400/30 bg-slate-900/55 p-6 md:p-8 shadow-[0_0_24px_rgba(34,211,238,0.14)]">
+            <h2 class="text-2xl md:text-3xl font-extrabold text-cyan-200">WIP</h2>
+            <p class="mt-3 text-cyan-300/80">Current work-in-progress concepts adapted into the sci-fi style.</p>
+            <div class="mt-6 space-y-5">
+                <article class="rounded-xl border border-cyan-300/35 bg-slate-800/60 overflow-hidden">
+                    <div class="h-36 md:h-44 bg-[linear-gradient(120deg,_rgba(8,47,73,0.95),_rgba(21,94,117,0.9),_rgba(2,132,199,0.8))] flex items-center px-5">
+                        <h3 class="text-xl font-bold text-white tracking-wide">WIP 1 - Frisbee Arena</h3>
+                    </div>
+                    <p class="p-5 text-cyan-300/85 leading-relaxed">A frisbee-style game where the disc can bounce off walls very hard, creating chaotic angles and fast reactions. The current focus is tuning physics, camera readability, and scoring flow.</p>
+                </article>
+                <article class="rounded-xl border border-cyan-300/35 bg-slate-800/60 overflow-hidden">
+                    <div class="h-36 md:h-44 bg-[linear-gradient(120deg,_rgba(30,41,59,0.95),_rgba(15,118,110,0.88),_rgba(34,211,238,0.7))] flex items-center px-5">
+                        <h3 class="text-xl font-bold text-white tracking-wide">WIP 2 - 4v4 Obstacle Course</h3>
+                    </div>
+                    <p class="p-5 text-cyan-300/85 leading-relaxed">A 4v4 PvP obstacle course where teams race through hazards while trying to disrupt each other. The main focus is network feel, fair collisions, and clearly readable hazard telegraphs.</p>
+                </article>
+            </div>
         </section>
 
         <section id="school" class="rounded-2xl border border-cyan-400/30 bg-slate-900/55 p-6 md:p-8">
